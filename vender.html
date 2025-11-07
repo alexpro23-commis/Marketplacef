@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vender producto - Marketplace Local</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <a class="btn-inicio" href="index.html"> Inicio</a>
+      <h1>Publicar producto</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="formulario-vender">
+      <h2>Agrega los datos de tu producto</h2>
+      <form>
+        <label for="nombre">Nombre del producto:</label>
+        <input type="text" id="nombre" placeholder="Ej. Pan artesanal" required>
+
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" placeholder="Ej. 100" required>
+
+        <label for="imagen">Imagen del producto:</label>
+        <input type="file" id="imagen" accept="image/*">
+
+        <label for="descripcion">Descripción:</label>
+        <textarea id="descripcion" placeholder="Describe tu producto..." rows="4"></textarea>
+
+        <button type="submit" class="btn-publicar">Publicar</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
